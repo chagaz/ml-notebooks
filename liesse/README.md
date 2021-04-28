@@ -11,3 +11,12 @@ Les notebooks ont été conçu avec Python 3.8 et les librairies suivantes :
 * numpy 1.19.2
 * pandas 1.2.2
 * sklearn 0.24.1
+
+Le fichier `environment.yml` vous permet de créer facilement un environnement Python contenant tous les modules nécessaires. Pour ce faire, vous pouvez utiliser l'interface graphique d'Anaconda -- cf. la section "Importing an environment" [du tutoriel](https://docs.anaconda.com/anaconda/navigator/tutorials/manage-environments/).
+En ligne de commande, utilisez 
+```bash
+   conda env create -f environment.yml -n stage_liesse
+   conda activate stage_liesse
+   jupyter notebook
+```
+
