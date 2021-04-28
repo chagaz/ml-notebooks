@@ -6,7 +6,7 @@ Ce répertoire contient les notebooks correspondant au stage LIESSE « Intellige
 * Réseaux de neurones : perceptrons multi-couches pour la régression et la classification 
 * Méthodes des plus proches voisins
 
-Les notebooks ont été conçu avec Python 3.8 et les librairies suivantes :
+Les notebooks ont été conçu avec Python 3.8.8 et les librairies suivantes :
 * matplotlib 3.3.4
 * numpy 1.19.2
 * pandas 1.2.2
@@ -19,4 +19,12 @@ En ligne de commande, utilisez
    conda activate stage_liesse
    jupyter notebook
 ```
-
+__Utilisation avancée__
+Pour faciliter le contrôle de version avec de notebooks jupyter, vous pouvez utiliser [`nbstripout`](https://pypi.org/project/nbstripout/), qui nettoie votre notebook (en particulier en enlevant les cellules de sortie) : installez-le avec
+```bash
+conda install -c conda-forge nbstripout
+```
+puis, avant de faire un commit,
+```bash
+nbstripout <nom_du_notebook>.ipynb
+```
