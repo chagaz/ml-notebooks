@@ -1,0 +1,16 @@
+name: CoursPython
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - ipython
+  - pandas
+  - notebook
+  - rise
+  - numpy
+  - scipy
+  - spyder
+  - matplotlib
+  - nbtutor
+  - scikit-learn
