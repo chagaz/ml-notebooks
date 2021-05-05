@@ -6,6 +6,8 @@ Ce répertoire contient les notebooks correspondant au stage LIESSE « Intellige
 * Réseaux de neurones : perceptrons multi-couches pour la régression et la classification 
 * Méthodes des plus proches voisins
 
+Pour télécharger ce répertoire sans passer par git, vous pouvez utiliser [downgit](https://downgit.github.io/#/home?url=https://github.com/chagaz/ml-notebooks/tree/master/liesse).
+
 Les notebooks ont été conçu avec Python 3.8.8 et les librairies suivantes :
 * matplotlib 3.3.4
 * numpy 1.19.2
